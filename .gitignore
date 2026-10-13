@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.streamlit/secrets.toml
+work/
+logs/
+LOG/
+saida/
+SAIDA/
+SAIDA_AGUA/
+BACKUP/
+backups/
+*.db
+*.xlsx
+# Somente amostras sintéticas revisadas entram no Git.
+!ENTRADA/**/*.xlsx
+!Bases/*.db
